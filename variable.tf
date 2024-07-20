@@ -46,3 +46,11 @@ variable "outbound_rules" {
 variable "vpc_id" {
   type = string
 }
+
+#### vpn sg rules
+
+variable "ingress_rules" {
+    type = list
+    default = []
+  
+}
